@@ -20,11 +20,11 @@ body{
     background-color: rgba(1, 1, 17, 0.950);
 }
 .logo{
-    width: 248px;
-    height: 248px;
+    width: 255px;
+    height: 255px;
     left: 131px;
     top: 27px;
-    margin: 70px auto 22px;
+    margin: 70px auto 15px;
     background: rgba(0, 0 , 0, 0.2);
     border-radius: 50%;
 }
@@ -51,7 +51,7 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    margin: auto;
+    margin:auto;
     text-transform: uppercase;
 
 }
