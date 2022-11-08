@@ -21,16 +21,19 @@ body{
 }
 .logo{
     width: 248px;
-    height: 214px;
+    height: 248px;
     left: 131px;
     top: 27px;
-    margin: 82px auto 42px;
+    margin: 70px auto 22px;
+    background: rgba(0, 0 , 0, 0.2);
+    border-radius: 50%;
 }
 .logo img{
+    position: relative;
     width: 248px;
     height: 214px;
-    left: 131px;
-    top: 27px;
+    left: 2px;
+    top: 15px;
 }
 .banner-content h1{
     width: 438px;
@@ -72,7 +75,7 @@ position: absolute;
 width: 330px;
 height: 60px;
 left: calc(50% - 326px/2);
-top: calc(50% - 57px/2 + 199px);
+top: calc(50% - 57px/2 + 210px);
 
 
 font-family: 'Raleway';
