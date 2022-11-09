@@ -6,14 +6,14 @@
 body{
     display: flex;
     flex-direction: column;
-    width: 1440px;
-    height:4000px;
+    width:auto;
+    height:auto;
 }
 .banner{
     display: flex;
     flex-direction: column;
     background-image: url(./assets/images/banner.png);
-    width: 1440px;
+    width:auto;
     height: 605px; 
     background-color: rgba(1, 1, 17, 0.950);
     border-bottom: 1px solid #33A8DB;
@@ -91,11 +91,13 @@ body{
     background-color: #042f4d73 ;
 }
 main{
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #000;
+    border-bottom: 1px #33A8DB solid;
 }
 #course-content{
     display: flex;
@@ -171,10 +173,10 @@ main{
     border-width: 1px 1px 1px 0px;
     border-style: solid;
     border-color: #33A8DB;
-    background: url(./assets/images/woman-code.png);
+    background-image: url(./assets/images/woman-code.png);
     background-size: cover;
-    background-position: 0 700px ;
     background-color: #000;
+    background-attachment:fixed;
 
 }
 #transform-world p{
@@ -192,5 +194,64 @@ main{
 }
 #professional-challenges{
     display: flex;
-    margin: 200px auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto 70px;
+    padding-bottom: 20px;
 }
+#professional-challenges h2{
+    width: 800px;
+    height: auto;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.19em;
+    color: #33A8DB;
+    text-transform: uppercase;
+    margin-top: -100px;
+}
+#professional-challenges p{
+    width: 792px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 35px;
+    color: #FFFFFF;
+}
+footer{
+    height: 170x;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 55px;
+    justify-content: center;
+    background-color: black;
+    background: linear-gradient(180deg, rgb(0,0,0) 10%, rgba(16, 19, 26, 0.9) 100%);
+    padding-bottom: 39px;
+}
+footer p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+footer a{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    color: #33A8DB;
+    font-style: bold;
+}
+
