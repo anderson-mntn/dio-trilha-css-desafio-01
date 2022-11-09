@@ -3,17 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+body, .banner, main, .module-list, footer, #professional-challenges, #course-content{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body{
     width:auto;
     height:auto;
 }
 .banner{
-    display: flex;
-    flex-direction: column;
     background-image: url(./assets/images/banner.png);
-    width:auto;
+    width:1440px;
     height: 605px; 
     background-color: rgba(1, 1, 17, 0.950);
     border-bottom: 1px solid #33A8DB;
@@ -21,6 +23,7 @@ body{
 }
 .banner-content{
     height: 605px;
+    width: 1440px;
     background-image: linear-gradient(to bottom, #1d1c1c49,  #00000000,  #0000009a);
 }
 .logo{
@@ -69,7 +72,7 @@ body{
     white-space: break-spaces;
 }
 .banner-content button{
-    margin: 10px auto 0;
+    margin: 20px auto 0;
     width: 330px;
     height: 61px;
     font-family: 'Raleway';
@@ -91,19 +94,10 @@ body{
     background-color: #14527e73 ;
 }
 main{
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: #000;
     border-bottom: 1px #33A8DB solid;
 }
 #course-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin-top: 10px;
     width: 792px;
     height: auto;
@@ -134,10 +128,6 @@ main{
     margin: 20px auto;
 }
 .module-list{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 0px;
     gap: 24px;
 }
@@ -193,10 +183,6 @@ main{
     text-transform: lowercase;
 }
 #professional-challenges{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 200px auto 70px;
     padding-bottom: 20px;
 }
@@ -226,12 +212,9 @@ main{
     color: #FFFFFF;
 }
 footer{
+    width: 1440px;
     height: 170x;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 55px;
-    justify-content: center;
     background-color: black;
     background: linear-gradient(180deg, rgb(0,0,0) 10%, rgba(16, 19, 26, 0.9) 100%);
     padding-bottom: 39px;
